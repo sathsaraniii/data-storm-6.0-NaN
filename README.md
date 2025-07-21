@@ -109,7 +109,9 @@ predictions.to_csv('submission.csv', index=False)
 - **Visualizations**: Interactive charts for stakeholder presentation
 
 ### 👥 Team Members
-**Team NaN** - Data Storm 6.0 participants
+**Team NaN** 
+[@Sachintha-Lakruwan] 
+[@MethmiRathnayaka]
 
 ### 📚 Additional Resources
 - **Dashboard Documentation**: Detailed project dashboard (`Dashboard Documentation- Team NaN.pdf`)
