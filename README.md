@@ -108,11 +108,6 @@ predictions.to_csv('submission.csv', index=False)
 - **Documentation**: Comprehensive analysis reports and dashboard
 - **Visualizations**: Interactive charts for stakeholder presentation
 
-### 👥 Team Members
-**Team NaN** 
-[@Sachintha-Lakruwan] 
-[@MethmiRathnayaka]
-
 ### 📚 Additional Resources
 - **Dashboard Documentation**: Detailed project dashboard (`Dashboard Documentation- Team NaN.pdf`)
 - **Final Report**: Complete analysis and findings (`Final Report- Team NaN.pdf`)
