@@ -5,17 +5,16 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 
-### 🎯 Project Overview
+### Project Overview
 This repository contains our comprehensive solution for the **Data Storm 6.0 Kaggle Competition**, focusing on predicting insurance agent performance. Our goal is to identify agents who will have **zero new policy acquisitions** in the following month, helping insurance companies optimize their resource allocation and agent support strategies.
 
-### 🏆 Competition Details
+### Competition Details
 - **Challenge**: One Month NILL Agent Prediction
-- **Team**: NaN
 - **Objective**: Predict which insurance agents will have zero new policy count in the next month
 - **Dataset**: Historical insurance agent performance data
 - **Evaluation**: Classification accuracy on agent performance prediction
 
-### 📊 Project Structure
+### Project Structure
 ```
 ├── notebooks/
 │   ├── data-storm-v6-0-EDA.ipynb           # Exploratory Data Analysis
@@ -28,7 +27,7 @@ This repository contains our comprehensive solution for the **Data Storm 6.0 Kag
 ├── Final Report- Team NaN.pdf              # Complete Analysis Report
 ```
 
-### 🔬 Methodology
+### Methodology
 
 #### 1. **Exploratory Data Analysis** (`data-storm-v6-0-EDA.ipynb`)
 - **Data Overview**: Comprehensive analysis of training and test datasets
@@ -55,7 +54,7 @@ This repository contains our comprehensive solution for the **Data Storm 6.0 Kag
 - **Progress Tracking**: Categorical trend labeling (Improving, Stable, Declining)
 - **Visualization Dashboard**: Interactive plots for performance monitoring
 
-### 🛠️ Technical Implementation
+### Technical Implementation
 
 #### **Core Technologies**
 - **Python 3.8+**: Primary programming language
@@ -66,7 +65,6 @@ This repository contains our comprehensive solution for the **Data Storm 6.0 Kag
 
 #### **Key Features**
 - **Probability-based Predictions**: SVM with calibrated probability estimates
-- **Dynamic Thresholding**: Adaptive threshold selection (default: 10%)
 - **Feature Scaling**: MinMaxScaler for optimal SVM performance
 - **Robust Pipeline**: End-to-end prediction pipeline with error handling
 
@@ -76,39 +74,18 @@ This repository contains our comprehensive solution for the **Data Storm 6.0 Kag
 - **Feature Selection**: Engineered features based on domain expertise
 - **Validation Strategy**: Time-based splitting to prevent data leakage
 
-### 🚀 Usage Instructions
-
-#### **Environment Setup**
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-#### **Running the Analysis**
-1. **Start with EDA**: Open `data-storm-v6-0-EDA.ipynb` for data exploration
-2. **Feature Engineering**: Run `data-storm-v6-0-part-1.ipynb` for model training
-3. **Advanced Analytics**: Execute `data-storm-v6-0-part-2.ipynb` for trend analysis
-4. **Model Deployment**: Load the trained model from `Trained Model/svc_model.pkl.zip`
-
-#### **Making Predictions**
-```python
-# Load the trained model and make predictions
-predictions = make_predictions(full_df)
-predictions.to_csv('submission.csv', index=False)
-```
-
-### 📈 Key Insights
+### Key Insights
 - **Agent Clustering**: Successful segmentation of agents based on performance patterns
 - **Temporal Features**: Time-based features significantly improve prediction accuracy
 - **Performance Trends**: Linear regression slopes effectively capture agent progression
-- **Threshold Optimization**: 10% threshold provides optimal precision-recall balance
 
-### 📋 Results & Deliverables
+### Results & Deliverables
 - **Trained Model**: Optimized SVM classifier ready for deployment
 - **Prediction Pipeline**: Complete end-to-end prediction workflow
 - **Documentation**: Comprehensive analysis reports and dashboard
 - **Visualizations**: Interactive charts for stakeholder presentation
 
-### 📚 Additional Resources
+### Additional Resources
 - **Dashboard Documentation**: Detailed project dashboard (`Dashboard Documentation- Team NaN.pdf`)
 - **Final Report**: Complete analysis and findings (`Final Report- Team NaN.pdf`)
 - **Model Artifacts**: Trained SVM model (`Trained Model/svc_model.pkl.zip`)
