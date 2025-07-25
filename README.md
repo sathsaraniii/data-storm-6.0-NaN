@@ -90,5 +90,9 @@ This repository contains our comprehensive solution for the **Data Storm 6.0 Kag
 - **Final Report**: Complete analysis and findings (`Final Report- Team NaN.pdf`)
 - **Model Artifacts**: Trained SVM model (`Trained Model/svc_model.pkl.zip`)
 
+### Team Members
+- Sachintha Lakruwan
+- Sathsarani Amarasinghe
+- Methmi Rathnayaka
 ---
 *This project demonstrates advanced machine learning techniques applied to insurance industry challenges, showcasing expertise in feature engineering, model selection, and business analytics.*
